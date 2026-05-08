@@ -1,12 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Dashboard } from './pages/Dashboard';
+import { CreateTicket } from './pages/CreateTicket';
 
 function TicketList() { 
   return <h1 className="text-2xl font-bold">Ticket List</h1>; 
-}
-function CreateTicket() { 
-  return <h1 className="text-2xl font-bold">Create Ticket</h1>; 
 }
 
 export default function App() {
